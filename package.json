@@ -1,0 +1,23 @@
+{
+  "name": "microenv",
+  "version": "1.0.0",
+  "description": "Basic package to get .env vars. Nothing fancy, less than 50 loc.",
+  "main": "main.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "env"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crafter999/microenv.git"
+  },
+  "author": "crafter999",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crafter999/microenv/issues"
+  },
+  "homepage": "https://github.com/crafter999/microenv#readme"
+}
