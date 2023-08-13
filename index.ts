@@ -1,4 +1,8 @@
-declare module 'tinydot' {
-   function tinydot(): void;
+interface GenericKeyValue {
+    [key: string]: any;
+}
+
+declare module "tinydot" {
+   function tinydot(): GenericKeyValue;
    export = tinydot;
  }
