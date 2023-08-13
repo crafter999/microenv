@@ -3,7 +3,7 @@ const path = require('path');
 
 const envPath = path.join(process.cwd(), '.env');
 
-function microenv(){
+function tinydot(){
    try {
       const envData = fs.readFileSync(envPath, 'utf8');
       const envLines = envData.split('\n');
@@ -16,7 +16,6 @@ function microenv(){
         }
       }
     
-      console.log(envVariables)
       return envVariables
     } catch (error) {
       console.error(error)
@@ -24,4 +23,4 @@ function microenv(){
     }
 }
 
-module.exports = microenv
+module.exports = tinydot

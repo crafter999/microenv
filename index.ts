@@ -1,4 +1,4 @@
-declare module 'microenv' {
-   function microenv(): void;
-   export = microenv;
+declare module 'tinydot' {
+   function tinydot(): void;
+   export = tinydot;
  }

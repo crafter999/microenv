@@ -1,4 +1,4 @@
-# microenv
+# tinydot
 
 Basic package to get .env vars. Nothing fancy, less than 50 loc.
 
@@ -9,12 +9,12 @@ Create `.env` file.
 ## JS
 
 ```
-microenv().myvar
+tinydot().myvar
 ```
 ## TS
 
 ```
-import microenv from "microenv"
+import tinydot from "tinydot"
 
-microenv().myvar
+tinydot().myvar
 ```

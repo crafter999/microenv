@@ -1,5 +1,5 @@
 {
-  "name": "microenv",
+  "name": "tinydot",
   "version": "1.0.0",
   "description": "Basic package to get .env vars. Nothing fancy, less than 50 loc.",
   "main": "main.js",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/crafter999/microenv.git"
+    "url": "git+ssh://git@github.com/crafter999/tinydot.git"
   },
   "author": "crafter999",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crafter999/microenv/issues"
+    "url": "https://github.com/crafter999/tinydot/issues"
   },
-  "homepage": "https://github.com/crafter999/microenv#readme"
+  "homepage": "https://github.com/crafter999/tinydot#readme"
 }
