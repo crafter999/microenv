@@ -17,3 +17,7 @@ test("it should get boolean value",()=>{
 test("it should get a number",()=>{
    assert.strictEqual(main().INTERVAL,10)
 })
+
+test("it should get a string",()=>{
+   assert.strictEqual(main().STR,"Hello World!")
+})
