@@ -18,6 +18,6 @@ test("it should get a number",()=>{
    assert.strictEqual(main().INTERVAL,10)
 })
 
-test("it should get a string",()=>{
-   assert.strictEqual(main().STR,"Hello World!")
+test("it should get the API key",()=>{
+   assert.strictEqual(main().API,"ilU7a2YQPDc==")
 })

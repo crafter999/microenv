@@ -1,6 +1,6 @@
 {
   "name": "tinydot",
-  "version": "2.1.1",
+  "version": "3.1.1",
   "description": "Basic package to get .env vars. Nothing fancy, less than 50 loc.",
   "main": "main.js",
   "types": "index.ts",

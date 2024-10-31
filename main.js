@@ -19,7 +19,9 @@ function tinydot(){
         if (commentIndex > -1) {
           trimmedLine = trimmedLine.slice(0, commentIndex).trim();
         }
-        const [key, value] = trimmedLine.split('=');
+
+        const index = trimmedLine.indexOf("="); 
+        const [key, value] =  [trimmedLine.slice(0, index), trimmedLine.slice(index + 1)];
         if (key && value) {
           // parse boolean or number
           if (value === "true") {
